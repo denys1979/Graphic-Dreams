@@ -1,2 +1,2 @@
 # Graphic-Dreams
-pagina web grupal
+Copia del proyecto en equipo para Capacitatech
