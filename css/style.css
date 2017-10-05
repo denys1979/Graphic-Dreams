@@ -1,11 +1,26 @@
+.fotologo {
+  width: 70%;
+  min-width: 120px;
+}
+.logo{
+  width: 20%;
+}
 h1 {
-  font-family: sans-serif;
-  color: rgb(255,0,0);
-  text-align: center;
+  font-family: arial;
+  color: rgb(40,90,130);
+  margin: 0;
+  font-size:55px;
+  white-space: nowrap;
+  padding-top: 30px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
 
 h2 {
-  color: blue;
+  color: rgb(40,90,130);
   font-family: sans-serif;
   font-style: italic;
 }
@@ -13,11 +28,123 @@ h2 {
   width: 20%;
   margin-left: 7%;
   border-radius: 50%;
+  box-shadow: 10px 10px 5px #294453;
 }
-.nosotros{
+.nosotros {
   background-color: rgb(0, 139, 139);
-  padding: 20px 20px 20px 20px;
+  padding: 10px;
+}
+
+.nosotros a  {
+	display: block;
+	width: 33%;
+	float: left;
+	text-align: center;
+  color: rgb(230, 230, 230);
+    font-style: arial;
+}
+
+.nosotros a img {
+	width: 70%;
+	border-radius: 50%;
 }
 header{
   height: 200px;
+  background-image: url(../imagenes/Fotolia_5159233_Subscription_L.jpg);
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+
+}
+
+body{
+  margin: 0;
+}
+.conocenos {
+  width: 50%;
+  height: auto;
+  background-color: rgb(160,230,255);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #888888;
+}
+.todo {
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+p{
+  font-family: sans-serif;
+  color: rgb(40,90,130);
+}
+.conclusion {
+  background-color: rgb(0,80,130);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+}
+.final {
+    color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+}
+.fuente-form{
+  font-family: sans-serif;
+}
+.form-completo{
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#name{
+  width:200px;
+}
+#mail{
+  width:200px;
+}
+#msg{
+  width:200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size:75px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .conocenos {
+    width: auto;
+  }
+  .todo {
+    display: block;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding-top: 90px;
+  }
+
+  .nosotros {
+    height: auto;
+  }
+
+  .nosotros a {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
 }
