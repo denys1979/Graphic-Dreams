@@ -1,0 +1,131 @@
+header{
+  height: 200px;
+  background-image: url(../imagenes/Fotolia_5159233_Subscription_L.jpg);
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+
+.fotologo {
+  width: 70%;
+  min-width: 120px;
+}
+
+.logo{
+  width: 20%;
+}
+
+h1 {
+  font-family: arial;
+  color: rgb(40,90,130);
+  margin: 0;
+  font-size:45px;
+  padding-top: 30px;
+}
+
+h2 {
+  color: rgb(40,90,130);
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.imagen{
+  width: 300px;
+  float: left;
+}
+
+.foto{
+  width: 300px;
+  border-radius: 50%;
+}
+
+.descripcion {
+  height: auto;
+  background-color: rgb(160,230,255);
+  margin: 10px;
+  padding: 10px 25px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #888888;
+  margin-left: 350px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: x-large;
+}
+
+.direcciones img {
+    width: 30%;
+    padding: 0 3px;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size:75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .imagen {
+    width: 100%;
+    float: none;
+  }
+
+  .descripcion {
+    margin-left: 0px;
+    font-size: 1em;
+    padding: 10px 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+    padding-top: 90px;
+  }
+
+  .foto {
+      width: 45%;
+      margin-left: 5%;
+      float: left;
+  }
+
+  .direcciones img {
+      width: 20%;
+      padding: 0 3px;
+      margin-left: 20%;
+      max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .imagen {
+    width: 100%;
+    float: none;
+  }
+
+  .descripcion {
+    margin-left: 0px;
+    font-size: 1em;
+    padding: 10px 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding-top: 90px;
+  }
+
+  .foto {
+      width: 65%;
+      float: left;
+      margin-left: 0;
+  }
+
+  .direcciones img {
+      width: 20%;
+      padding: 0 3px;
+      margin-left: 10%;
+    }
+
+}
