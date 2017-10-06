@@ -1,3 +1,4 @@
+
 .fotologo {
   width: 70%;
   min-width: 120px;
@@ -12,6 +13,20 @@ h1 {
   font-size:55px;
   white-space: nowrap;
   padding-top: 30px;
+}
+
+button{
+margin: 80%;
+height: 20%;
+background-color: rgb(255, 190, 30);
+}
+
+button a{
+  text-decoration: none;
+    }
+
+button:hover{
+  background-color: red;
 }
 
 .clearfix {
@@ -112,6 +127,27 @@ p{
   width:200px;
   height: 200px;
 }
+footer{
+  height:100%;
+  background-color: rgb(0,80,130);
+}
+.blanco{
+  font-family: sans-serif;
+  color: white;
+}
+.logo{
+  display: inline;
+  font-size:15px;
+}
+#logo{
+  width: 100px;
+}
+.blanco{
+  white-space: nowrap;
+}
+
+
+
 
 @media screen and (min-width: 900px) {
   h1 {

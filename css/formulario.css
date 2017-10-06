@@ -1,0 +1,247 @@
+button{
+margin: 50px 10px;
+height: 20%;
+background-color: rgb(255, 190, 30);
+}
+
+button a{
+  text-decoration: none;
+    }
+
+button:hover{
+  background-color: red;
+}
+
+.fotologo {
+  width: 70%;
+  min-width: 120px;
+}
+.logo{
+  width: 20%;
+}
+h1 {
+  font-family: arial;
+  color: rgb(40,90,130);
+  margin:0;
+  font-size:30px;
+  white-space: nowrap;
+  padding-top: 30px;
+  padding-left:40px;
+}
+
+h2 {
+  color: rgb(40,90,130);
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+p{
+  font-family: sans-serif;
+  color: rgb(40,90,130);
+}
+
+header{
+  height: 200px;
+  background-image: url(../imagenes/Fotolia_5159233_Subscription_L.jpg);
+  background-size: 1500px 200px;
+  background-repeat: no-repeat;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+
+}
+
+body{
+  margin: 0;
+}
+
+
+
+.conclusion {
+  background-color: rgb(0,80,130);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+}
+.final {
+    color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+}
+.fuente-form{
+  font-family: sans-serif;
+  text-align: center;
+}
+.form-completo{
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#name{
+  width:100%;
+}
+#mail{
+  width:100%;
+}
+#msg{
+  width:100%;
+  height: 200px;
+}
+
+footer{
+  height:100%;
+  background-color: rgb(0,80,130);
+}
+.blanco{
+  font-family: sans-serif;
+  color: white;
+}
+.logo{
+  display: inline;
+  font-size:15px;
+}
+#logo{
+  width: 100px;
+}
+.blanco{
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px){
+
+  h1 {
+    font-family: arial;
+    color: rgb(40,90,130);
+    margin: 0;
+    white-space: nowrap;
+    font-size:45px;
+  }
+
+  .form-completo{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #name{
+    width:60%;
+  }
+  #mail{
+    width:60%;
+  }
+  #msg{
+    width:100%;
+    height: 200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+  .form-completo{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+h1 {
+  font-family: arial;
+  color: rgb(40,90,130);
+  margin: 0;
+  white-space: nowrap;
+  font-size:75px;
+  padding: 20px;
+
+}
+
+
+
+#name{
+  width:40%;
+}
+#mail{
+  width:40%;
+}
+#msg{
+  width:100%;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+}
